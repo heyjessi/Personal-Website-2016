@@ -1,0 +1,72 @@
+body{
+  background-color: yellow;
+  font-family: 'risparegular',Josefin Sans, Karla;
+}
+h1 {
+
+  text-align: left;
+  margin-left: 100px;
+  font-size: 30px;
+
+}
+p{
+  font-size:30px;
+}
+
+.photo{
+  border-radius: 50%;
+  border-color: white;
+  border-style:solid;
+  border-width: 10px;
+}
+
+.theTop{
+  text-align: center;
+  clear:both;
+  height:40px;
+
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:active{
+  color: black;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:#40E0D0;
+}
+
+.header{
+  background:white;
+  font-family: Vibur;
+}
+
+.headCat{
+  text-align:right;
+  margin-right: 100px;
+
+}
+
+.headWords{
+  position: absolute;
+  margin-top: 0px;
+}
+
+
+
+@font-face{
+    font-family: 'risparegular';
+    src: url('rispa-regular-webfont.eot');
+    src: url('rispa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rispa-regular-webfont.woff2') format('woff2'),
+         url('rispa-regular-webfont.woff') format('woff'),
+         url('rispa-regular-webfont.ttf') format('truetype'),
+         url('rispa-regular-webfont.svg#risparegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
