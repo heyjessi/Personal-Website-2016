@@ -1,6 +1,6 @@
 body{
-  background-color: yellow;
-  font-family: 'risparegular',Josefin Sans, Karla;
+  background-color: yellow !important;
+  font-family: Josefin Sans, Karla !important;
 }
 h1 {
 
@@ -18,6 +18,7 @@ p{
   border-color: white;
   border-style:solid;
   border-width: 10px;
+  margin:25px;
 }
 
 .theTop{
@@ -28,17 +29,17 @@ p{
 }
 
 a:link{
-  text-decoration: none;
-  color: black;
+  text-decoration: none !important;
+  color: black !important;
 }
 a:active{
-  color: black;
+  color: black !important;
 }
 a:visited{
-  color:black;
+  color:black !important;
 }
 a:hover{
-  color:#40E0D0;
+  color:#40E0D0 !important;
 }
 
 .header{
@@ -65,7 +66,6 @@ a:hover{
 #line{
   background-color: black;
   color: black;
-  border-style: dotted;
 }
 
 .mainJist{
@@ -80,6 +80,6 @@ a:hover{
 }
 
 .dance{
-  width: 300px;
+  width: 300px ;
   height: 200px;
 }
