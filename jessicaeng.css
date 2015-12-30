@@ -46,15 +46,17 @@ a:hover{
   font-family: Vibur;
 }
 
-.headCat{
+#headCat{
   text-align:right;
   margin-right: 100px;
+  padding = 15px;
 
 }
 
-.headWords{
+#headWords{
 <<<<<<< HEAD
   position: relative;
+  padding: 15px;
 =======
   position: absolute;
 >>>>>>> 8ce2a25893625aac1c8597cb73573accf688d0bd
