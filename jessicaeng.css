@@ -50,16 +50,16 @@ a:hover{
   text-align:right;
   margin-right: 100px;
   padding = 15px;
+  text-align: center;
 
 }
 
 #headWords{
-<<<<<<< HEAD
-  position: relative;
+
   padding: 15px;
-=======
   position: absolute;
->>>>>>> 8ce2a25893625aac1c8597cb73573accf688d0bd
+  font-size = 40px;
+  text-align:center;
   margin-top: 0px;
 }
 
